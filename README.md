@@ -22,3 +22,4 @@ Devops using all the agile knowledge to improve yourself.
 
 #what is swagger?
 - swagger is a tool built by ... to automate RESTful documentation
+- test integration with icescrum
