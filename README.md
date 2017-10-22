@@ -9,3 +9,13 @@ Devops using all the agile knowledge to improve yourself.
  - go again to the system variables and add to the path variable the apache-maven-{version}-bin/bin folder
  - start a command line of your choice, it can be cmd or powershell, and type mvn -version and hit enter.
  - that's all, we are done with maven instalation.
+ 
+ # a very easy way to create your own archetype and save it on your local repository
+- How to create maven archetypes base on your own projects.
+- Create the project as usually then run the maven command 
+- mvn archetype:create-from-project
+- The first parte is done
+- Now is time to save this archetype on the local repository, so we can use it to create new projects base on our new archetype.
+- If you are using an IDE refresh the projects so you will be able to see in the target -> generated-sources the archetype folder 
+- go inside of the archetype folder and run the maven command mvn clean install
+- And now your new archetype is saved on the local repository ready to use.
