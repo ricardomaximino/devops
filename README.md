@@ -19,3 +19,6 @@ Devops using all the agile knowledge to improve yourself.
 - If you are using an IDE refresh the projects so you will be able to see in the target -> generated-sources the archetype folder 
 - go inside of the archetype folder and run the maven command mvn clean install
 - And now your new archetype is saved on the local repository ready to use.
+
+#what is swagger?
+- swagger is a tool built by ... to automate RESTful documentation
