@@ -37,7 +37,7 @@ Devops using all the agile knowledge to improve yourself.
  - @Api: 
  - @ApiOperations:
  - @ApiResponses:
-  - @ApiResponse:
+ -- @ApiResponse:
  - @ApiModelProperty
  
  # How to set swagger with springboot
