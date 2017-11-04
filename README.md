@@ -20,10 +20,10 @@ Devops using all the agile knowledge to improve yourself.
 - go inside of the archetype folder and run the maven command mvn clean install
 - And now your new archetype is saved on the local repository ready to use.
 
-#what is swagger?
+# what is swagger?
 - swagger is a tool built by ... to automate RESTful documentation
 - test integration with icescrum
 
-#what are the swagger dependencies?
+## what are the swagger dependencies?
 - io.springfox:springfox-swagger2:2.6.1
 - io.springfox:springfox-swagger-ui:2.6.1
