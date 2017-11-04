@@ -27,3 +27,18 @@ Devops using all the agile knowledge to improve yourself.
 ## what are the swagger dependencies?
 - io.springfox:springfox-swagger2:2.6.1
 - io.springfox:springfox-swagger-ui:2.6.1
+
+# How to use swagger with springboot
+- first thing to do is to add the swagger dependencies to the POM
+- once the dependencies are set up you have to create the swagger configuration class
+- the swagger configuration class must be annoated with @Configuration and @EnableSwagger2
+- inside of the configuration class you must define a Docket bean, which I'm going to explain on the set swagger session
+- then the last, but not the least, you can include the annotations to the endpoints to give some customize information or to override de default behaviour of swagger, the annotations are:
+ - @Api: 
+ - @ApiOperations:
+ - @ApiResponses:
+  - @ApiResponse:
+ - @ApiModelProperty
+ 
+ # How to set swagger with springboot
+ - ...
